@@ -1,0 +1,54 @@
+
+/* Presentational styles */
+body {
+  font-family: sans-serif;
+  padding: 2em;
+  background-color: hsl(212, 45%, 89%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+div{
+  background-color: white;
+  width: min-content;
+  border-radius: 20px;
+  padding-bottom: 30px;
+  box-shadow: 5px 10px 30px 0px hsl(216, 15%, 48%,0.1);
+}
+
+h1,p{
+  line-height: 120%;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 22px;
+  color: #1f314f;
+}
+figure{
+  margin: 20px;
+  padding: 5px;
+}
+p{
+  font-size: 17px;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  color: hsl(216, 15%, 48%);
+}
+
+img{
+  height: 20rem;
+  border-radius: 15px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
